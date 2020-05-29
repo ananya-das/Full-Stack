@@ -1,0 +1,21 @@
+ul{
+    list-style-type: circle;
+    border:2px solid green;
+    background-color: plum;
+}
+ul a{
+    display: inline-block;
+    color: chocolate;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 22px;
+    border: 2px solid pink;
+}
+ul a:hover{
+    color:orange;
+    background-color: yellow;
+    font-size: large;
+}
+ul a:active{
+    color: turquoise;
+}

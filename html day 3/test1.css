@@ -1,0 +1,17 @@
+a{
+    color:darkmagenta;
+a:link{
+    color:red;
+    text-decoration:none;
+    display:inline-block;
+    padding-left:10px;
+}
+a:hover{
+    color:green;
+    background-color: lightblue;
+    font-size: large;
+    text-decoration: underline;
+}
+a:active{
+    color:blue;
+}

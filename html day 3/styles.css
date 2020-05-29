@@ -1,0 +1,38 @@
+.a1{
+
+    background-color: aqua;
+}
+.a2{
+    background-color: yellowgreen;
+}
+.b1{
+    color: yellow;
+    width: "70%";
+    height: "100%";
+    background-image: url('back-1.jpg');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.b2{
+    color: wheat;
+    width: "70%";
+    height: "100%";
+    background-image: url('back-2.jpg');
+}
+.c1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    font-variant: small-caps;
+    font-weight: lighter;
+}
+.c2{
+    font-style: oblique;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.c3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: initial;
+    font-weight: bolder;
+}
