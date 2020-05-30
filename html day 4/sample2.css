@@ -1,0 +1,10 @@
+.a1{
+    color:wheat;
+    text-shadow: 2px 3px darkmagenta;
+    text-align: center;
+}
+.a2{
+    box-shadow: 2px 3px 2px 3px darkolivegreen;
+    text-align: center;
+    color:red;
+}

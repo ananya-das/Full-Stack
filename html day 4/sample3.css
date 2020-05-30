@@ -1,0 +1,13 @@
+.a1{
+    border: 2px solid red;
+    text-align: center;
+    text-decoration: red;
+    text-transform: capitalize;
+    background-color: rosybrown;
+}
+#div1:hover{
+    transform:rotate(90deg);
+}
+#div2:hover{
+    transform: rotate(180deg);
+}

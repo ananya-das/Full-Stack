@@ -1,0 +1,28 @@
+.table,th,td{
+    border: 2px solid blue;
+}
+input[type=text],input[type=password]{
+    width:100px;
+    margin:8px;
+    padding:10px;
+    box-sizing:border-box;
+    border : 2px solid red;
+    border-radius: 5px;
+    background-color:darkgrey;
+    color:wheat;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    color: tomato;
+}
+th p{
+    font-size: large;
+    font-family: monospace;
+    font-variant: small-caps;
+}
+input[type=button]{
+    font-size: large;
+    font-weight: bold;
+    background-color: violet;
+}
