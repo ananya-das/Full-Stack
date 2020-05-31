@@ -1,0 +1,12 @@
+ul{
+    list-style-type: none;
+    background-color: aliceblue;
+}
+ul a{
+    display: block;
+    text-decoration: blueviolet;
+    font-size: x-large;
+}
+ul a:hover{
+    color:blueviolet;
+}

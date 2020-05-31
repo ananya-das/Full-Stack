@@ -1,0 +1,25 @@
+table,td,th{
+    border:2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gainsboro;
+}
+th{
+    
+    text-align: center;
+    
+}
+td{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    background-color: aliceblue;
+}
+ul a{
+    display: inline-block;
+    text-decoration: blueviolet;
+    font-size: x-large;
+}
+ul a:hover{
+    color:blueviolet;
+}
