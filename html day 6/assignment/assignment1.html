@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> DOB</title>
+        <script>
+            function check(){
+                var dob=document.getElementById("txtdob").value;
+                var p=/^(([0-2][0-9])|([3][0-1]))[/](([0][0-9])|([1][0-2]))[/]([1][9]{2})|([2][0-9]{3}$)/;
+                var yr=dob.split("/");
+                if(p.test(dob)){
+                    if((2020-parseInt(yr[2]))>=18){
+                        window.alert("Eligible");
+                    }
+                    else{
+                        window.alert("Not Eligible");
+                    }
+                }
+                
+                
+                else{
+                    window.alert("improper date of birth");
+                }
+            }
+
+        </script>
+
+    </head>
+    <body>
+        dob:<input type="text" placeholder="Enter date" id="txtdob" /> <br/>
+        <button type="button" onclick="check()">ValidateDOB</button>
+    </body>
+</html>
