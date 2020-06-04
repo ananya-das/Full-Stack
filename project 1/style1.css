@@ -1,0 +1,33 @@
+table,td,th{
+    border:2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    background-color: peachpuff;
+}
+th,td{
+    text-transform: capitalize;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+ul{
+    list-style-type: none;
+    background-color: aliceblue;
+}
+ul a{
+    display: inline-block;
+    text-decoration: blueviolet;
+    font-size: x-large;
+}
+ul a:hover{
+    color:blueviolet;
+}
+.a1{
+    background-color: lightyellow;
+}
+.a2{
+    background-color: lightyellow;
+    font-size: x-large;
+    font-style: italic;
+}
