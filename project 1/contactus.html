@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: maroon;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>CONTACT US</h1>
+  <img src="cont.png" width="100%" height="60%">
+</div>
+
+<h2 style="text-align:center">Campus Contact Information</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+        <img src="vis.jpg" style="width:100%">
+        <div class="container">
+            <h2>Visakhapatnam campus</h2>
+            <p class="title">Central Administrative Office</p>
+            <p>0891-2840501</p>
+            <p>egistrar@gitam.edu</p>
+            <p>Address:Gandhi nagar,
+                Rushikonda,
+                Visakhapatnam-530045</p>
+            <p><button class="button">Contact</button></p>
+        </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+        <img src="git.jpg" style="width:100%">
+        <div class="container">
+            <h2>Hyderabad campus</h2>
+            <p class="title">Central Administrative Office</p>
+            <p>08455-221200 / 1 / 2 / 3 / 4 / 5</p>
+            <p>registrar@gitam.edu</p>
+            <p>Address:Rudraram, Patancheru mandal,
+                Hyderabad-502329,
+                Telangana, INDIA.</p>
+            <p><button class="button">Contact</button></p>
+        </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+        <img src="banglore.jpg" style="width:100%">
+        <div class="container">
+            <h2>Bengaluru campus</h2>
+            <p class="title">Central Administrative Office</p>
+            <p>9108514034 / 36 / 37, 9108514028</p>
+            <p>Address:Address,
+                NH 207, Nagadenehalli,
+                Doddaballapur taluk,
+                Bengaluru-561203</p>
+            <p><button class="button">Contact</button></p>
+        </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
