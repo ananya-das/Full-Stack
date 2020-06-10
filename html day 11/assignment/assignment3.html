@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <script>
+ 
+            $(document).ready(function(){
+                $(".fademet").click(function(){
+                    $(".men_ex").fadeIn(2000);
+                });
+ 
+            }); 
+        </script>
+
+
+        <style>
+            .men_ex{
+                border-radius:5px;
+                display:none;
+            }
+            .men_ex ul {
+                margin: 0; 
+                padding: 0;
+                width:185px;
+                list-style-type: none;
+    
+            }
+            .men_ex ul li a {
+                text-decoration: none;
+                color: #fff; 
+                padding: 10.5px 11px;
+                background-color: #3E5F74;
+                display:block;
+                border-bottom:solid 1px #000;
+            }
+            .men_ex ul li a:visited {
+                color: white;
+            }
+            .men_ex ul li a:hover, .men_ex ul li .current {
+                color: #000;
+                background-color: #B1C7D6;
+            }
+
+            .show_hide{
+                position:fixed;
+                margin: 30px 30px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>jQuery fadeIn demo</h1>
+        <div class="men_ex">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>    
+            </ul>
+        </div>
+        <p>
+            <button class="fademet">Execute fadeIn method</button>
+        </p>
+
+    </body>
+</html>
+
+
