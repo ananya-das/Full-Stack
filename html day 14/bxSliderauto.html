@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Slider Design</title>
+        <link rel="StyleSheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css"/>
+        <script type="text/javascript" src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="bootstrap-4.5.0-dist/js/jquery.min.js"></script>
+        <script type="text/javascript" src="bxslider-4-4.2.12/src/js/jquery.bxslider.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.bxslider').bxSlider({
+                    auto: true,
+                    autoControls: true,
+                    stopAutoOnClick: true,
+                    pager: true,
+                    slideWidth: 600
+                });
+            });
+        </script>
+        </head>
+        <body>
+            <div class="bxslider">
+                <div><img src="img1.jpg" title="Img1"></div>
+                <div><img src="img2.jpg" title="Img2"></div>
+                <div><img src="img3.jpg" title="Img3"></div>
+            </div>
+        </body>
+</html>
